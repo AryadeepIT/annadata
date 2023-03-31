@@ -111,6 +111,6 @@ nav .s2 a{
 }
 
 nav .s2 a:hover{
-    color: brown;
+    color: var(--col1);
 }
 
