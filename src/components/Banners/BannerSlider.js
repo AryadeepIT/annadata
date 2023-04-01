@@ -44,9 +44,7 @@ const BannerSlider = () => {
             description: 'Let Us Help You Find What You Need Today',
             button: 'https://aryadeepit.github.io' 
             // Please change the above link
-        },
-
-        
+        }      
 
 
 
@@ -64,7 +62,6 @@ const BannerSlider = () => {
         autoplaySpeed: 3000,
         pauseOnHover: true,
         arrows: false,
-        fade: true,
         cssEase: 'linear'
     }
 

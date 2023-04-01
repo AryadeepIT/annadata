@@ -26,7 +26,7 @@ const HomeCategories = () => {
         <img src={img3} alt='img3' />
         <div className='content'>
             <h1>Indulge in our Irresistible Cookie Selection (XX% Off)</h1>
-            <p>Can you Guess the discount?</p>
+            <p>Guess the discount</p>
         </div>
       </div>
       <div className='container'>

@@ -4,6 +4,7 @@ import Home from './pages/Homepage/Home'
 import './App.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import PageNotFound from './pages/PageNotFound/PageNotFound';
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="*" element={<h1>404 - Not Found</h1>} />
+        <Route path="*" element={<PageNotFound />} />
     </Routes>
     </BrowserRouter>
   )

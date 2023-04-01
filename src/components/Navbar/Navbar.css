@@ -100,6 +100,9 @@ nav .s2{
     align-items: center;
     padding: 5px;
     gap: 3%;
+    font-family: sans-serif;
+    
+    
 }
 
 nav .s2 a{
@@ -111,6 +114,6 @@ nav .s2 a{
 }
 
 nav .s2 a:hover{
-    color: var(--col1);
+    color: green;
 }
 

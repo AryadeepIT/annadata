@@ -43,6 +43,7 @@
     font-weight: 200;
     margin-bottom: 5px;
     width: 70%;
+ 
 }
 
 .bannerslider .imagecont .content p{
@@ -52,8 +53,8 @@
 }
 
 .bannerslider .imagecont button{
-    background-color: var(--col1);
-    color: black;
+    background-color: green;
+    color: white;
     border: none;
     padding: 10px 20px;
     font-size: 1.2rem;
@@ -65,6 +66,6 @@
 }
 
 .bannerslider .imagecont button:hover{
-    background-color: var(--col2);
-    color: white;
+    background-color: rgb(215, 214, 216);
+    color: rgb(0, 0, 0);
 }

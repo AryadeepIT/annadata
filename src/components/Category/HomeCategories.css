@@ -18,10 +18,14 @@
     justify-content: center;
     border-radius: 10px;
     margin: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(227, 227, 227);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
 }
 
 .homecategories .container img{
-    width: 50%;
+    width: 35%;
     object-fit: cover;
 }
 .homecategories .container .content{
@@ -36,9 +40,10 @@
     flex-direction: column;
 }
 .homecategories .container .content h1{
-    font-size: 18px;
+    font-size: 16px;
     font-weight:400;
     margin: 0;
+    padding-left: 15px; 
 }
 
 .homecategories .container .content p{
@@ -46,27 +51,47 @@
     font-weight:300;
     margin: 0;
     padding: 0px;
+    padding-left: 20px;
 }
 
 .homecategories .container:nth-child(1){
-    background-color: #bfdbbd;
-    color: rgb(0, 0, 0);
+    background-color: transparent;
+    color: rgb(159, 50, 3);
 }
 
+.homecategories .container:nth-child(1):hover{
+    border-width: 1.5px;
+    border-color: rgb(182, 181, 181)
+}
 
 .homecategories .container:nth-child(2){
-    background-color: #d6d6d2;
-    color: rgb(0, 0, 0);
+    background-color: transparent;
+    color: rgb(27, 138, 28);
+}
+
+.homecategories .container:nth-child(2):hover{
+    border-width: 1.5px;
+    border-color: rgb(182, 181, 181)
 }
 
 
 .homecategories .container:nth-child(3){
-    background-color: #f4cd81;
-    color: rgb(0, 0, 0);
+    background-color: transparent;
+    color: rgb(153, 39, 39);
+}
+
+.homecategories .container:nth-child(3):hover{
+    border-width: 1.5px;
+    border-color: rgb(182, 181, 181)
 }
 
 
 .homecategories .container:nth-child(4){
-    background-color: #abcaf9;
-    color: rgb(0, 0, 0);
+    background-color: transparent;
+    color: rgb(27, 138, 28);
+}
+
+.homecategories .container:nth-child(4):hover{
+    border-width: 1.5px;
+    border-color: rgb(182, 181, 181)
 }

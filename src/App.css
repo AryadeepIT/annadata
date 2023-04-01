@@ -1,15 +1,17 @@
 :root{
-  --col1: #f68a0e;
+  --col1: #34b847;
   --col2: gray;
   --col3: #cecece;
   --col4: #f5c518;
+  --col5: #f68a0e;
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'poppins', sans-serif;
+  font-family: 'Roboto', Arial,sans-serif;
   font-weight: 400;
+  font-size: 14px;
 }
 
 #dropdown-basic {
@@ -18,3 +20,30 @@
   margin: 0px;
   padding: 0px;
 }
+
+@font-face {
+  font-family: Righteous;
+  src: url(../src/fonts/Righteous-Regular.ttf);
+}
+
+@font-face {
+  font-family: Balgin;
+  src: url(../src/fonts/Fontspring-DEMO-balgindisplay-extralight.otf);
+}
+
+@font-face {
+  font-family: SFPro;
+  src: url(../src/fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+
+@font-face {
+  font-family: Helvetica;
+  src: url(../src/fonts/Helvetica\ Neue\ Regular.otf);
+}
+
+@font-face {
+  font-family: Hammersmith;
+  src: url(../src/fonts/HammersmithOne-Regular.ttf);
+}
+
