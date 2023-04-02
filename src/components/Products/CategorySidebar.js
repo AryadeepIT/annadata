@@ -15,6 +15,12 @@ import img13 from '../../assets/Images/CategorySidebar/13.png'
 import img14 from '../../assets/Images/CategorySidebar/14.png'
 import img15 from '../../assets/Images/CategorySidebar/15.png'
 import img16 from '../../assets/Images/CategorySidebar/16.png'
+import img17 from '../../assets/Images/CategorySidebar/17.png'
+import img18 from '../../assets/Images/CategorySidebar/18.png'
+import img19 from '../../assets/Images/CategorySidebar/19.png'
+import img20 from '../../assets/Images/CategorySidebar/20.png'
+import img21 from '../../assets/Images/CategorySidebar/21.png'
+import img22 from '../../assets/Images/CategorySidebar/22.png'
 
 import './CategorySidebar.css'
 
@@ -99,6 +105,36 @@ const CategorySidebar = () => {
       id: 16,
       categoryimage: img16,
       categoryname: 'Pet Care'
+    },
+    {
+      id: 17,
+      categoryimage: img17,
+      categoryname: 'Pharma and Wellness'
+    },
+    {
+      id: 18,
+      categoryimage: img18,
+      categoryname: 'Fruits and Vegetables'
+    },
+    {
+      id: 19,
+      categoryimage: img19,
+      categoryname: 'Chicken, Mutton & Fish'
+    },
+    {
+      id: 20,
+      categoryimage: img20,
+      categoryname: 'Sexual Wellness'
+    },
+    {
+      id: 21,
+      categoryimage: img21,
+      categoryname: 'Cigarettes & Tobacco'
+    },
+    {
+      id: 22,
+      categoryimage: img22,
+      categoryname: 'Paan & Gutkha'
     }
   ]
   return (

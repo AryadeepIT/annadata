@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/annadata.png";
 import Dropdown from 'react-bootstrap/Dropdown'
 
 
 const Navbar = () => {
-    const [cartquantity, setCartquantity] = useState(0)
+    const [cartquantity] = useState(0)
   return (
     <nav>
       <div className="s1">
@@ -55,7 +55,20 @@ const Navbar = () => {
       <div className="s2">
       <Dropdown>
       <Dropdown.Toggle variant="" id="dropdown-basic">
-        Categories
+        Fresh Items
+      </Dropdown.Toggle>
+
+      <Dropdown.Menu>
+        <Dropdown.Item href="#/action-1">Dairy & Eggs</Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Fruits & Vegetables</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Chicken, Mutton & Meat</Dropdown.Item>
+        
+      </Dropdown.Menu>
+    </Dropdown>
+
+    <Dropdown>
+      <Dropdown.Toggle variant="" id="dropdown-basic">
+        Grocery Items
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
@@ -73,11 +86,13 @@ const Navbar = () => {
         <Dropdown.Item href="#/action-3">Oral Care</Dropdown.Item>
         <Dropdown.Item href="#/action-3">Home & Kitchen</Dropdown.Item>
         <Dropdown.Item href="#/action-3">Household & Kitchen</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Dairy & Eggs</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Pet Care</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Pharma & Wellness</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
-    <a>About Us</a>
-    <a>Contact</a>
+
+    <a href="/home">About</a>
+    <a href="/home">Contact</a>
 
     <Dropdown>
       <Dropdown.Toggle variant="" id="dropdown-basic">

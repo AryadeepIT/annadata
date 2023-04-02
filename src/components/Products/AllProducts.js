@@ -13,6 +13,10 @@ import img9 from '../../assets/Images/Products/9.png'
 import img10 from '../../assets/Images/Products/10.png'
 import img11 from '../../assets/Images/Products/11.png'
 import img12 from '../../assets/Images/Products/12.png'
+import img13 from '../../assets/Images/Products/13.png'
+import img14 from '../../assets/Images/Products/14.png'
+import img15 from '../../assets/Images/Products/15.png'
+import img16 from '../../assets/Images/Products/16.png'
 
 const AllProducts = () => {
   const products = [
@@ -33,6 +37,14 @@ const AllProducts = () => {
       counttype: '1 kg'
     },
     {
+      id: 13,
+      productimage: img13,
+      productname: 'Chandramukhi Potato',
+      productprice: 27,
+      discountpercent: 15,
+      counttype: '1 kg'
+    },
+    {
       id: 3,
       productimage: img3,
       productname: 'Fortune Sunlite Refined Sunflower Oil Can',
@@ -47,6 +59,15 @@ const AllProducts = () => {
       productprice: 150,
       discountpercent: 29,
       counttype: '270 g'
+    },
+
+    {
+      id: 14,
+      productimage: img14,
+      productname: 'Brown Coconut + Bel Patra Combo',
+      productprice: 104,
+      discountpercent: 20,
+      counttype: 'Combo'
     },
     {
       id: 5,
@@ -89,6 +110,14 @@ const AllProducts = () => {
       counttype: '275 g'
     },
     {
+      id: 15,
+      productimage: img15,
+      productname: 'Eggoz Farm Fresh White Eggs',
+      productprice: 360,
+      discountpercent: 20,
+      counttype: '30 piece'
+    },
+    {
       id: 10,
       productimage: img10,
       productname: 'Chana Dal (Split)',
@@ -111,6 +140,14 @@ const AllProducts = () => {
       productprice: 200,
       discountpercent: 61,
       counttype: '250 ml'
+    },
+    {
+      id: 16,
+      productimage: img16,
+      productname: 'Baby Banana (Robusta)',
+      productprice: 80,
+      discountpercent: 50,
+      counttype: '4p (8 pcs)'
     }
 
   ]

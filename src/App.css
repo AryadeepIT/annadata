@@ -47,3 +47,11 @@
   src: url(../src/fonts/HammersmithOne-Regular.ttf);
 }
 
+@font-face {
+  font-family: Shadhinota;
+  src: url(../src/fonts/LiShadhinata2Unicode-Regular.ttf);
+}
+@font-face {
+  font-family: AnmolHindi;
+  src: url(../src/fonts/AnmolHindi.ttf);
+}
