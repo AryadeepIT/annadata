@@ -11,28 +11,28 @@ const HomeCategories = () => {
       <div className='container'>
         <img src={img1} alt='img1' />
         <div className='content'>
-            <h1>Premium Quality Rice for Your Daily Meals upto 20% off</h1>
-            <p>Sounds Interesting?</p>
+            <h1>Get 61% off on Dettol Refresh Body Wash and Shower Gel</h1>
+            <p>Limited time offer, don't miss out!</p>
         </div>
       </div>
       <div className='container'>
         <img src={img2} alt='img2' />
         <div className='content'>
-            <h1>10% of on all Healthy and Delicious Cooking Oils</h1>
-            <p>Health is our Priority.</p>
+            <h1>Get ready to cook up a storm with Fortune Sunlite Refined Sunflower Oil!</h1>
+            <p>For a limited time, enjoy a whopping 16% off!</p>
         </div>
       </div>
       <div className='container'>
         <img src={img3} alt='img3' />
         <div className='content'>
-            <h1>Indulge in our Irresistible Cookie Selection (XX% Off)</h1>
-            <p>Guess the discount</p>
+            <h1>Get your taste buds tingling with Lays American Style Cream and Onion Chips</h1>
+            <p>Now at an unbeatable discount of 29% off! </p>
         </div>
       </div>
       <div className='container'>
       <img src={img4} alt='img4' />
       <div className='content'>
-            <h1>Quench Your Thirst with Our Refreshing Beverage Range</h1>
+            <h1>Revitalize Your Skin with Vaseline Intensive Care Aloe Soothe Body Lotion</h1>
             <p>Have a Look!</p>
         </div>
 

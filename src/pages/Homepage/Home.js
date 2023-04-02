@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <BannerSlider />
+      {/* <BannerSlider /> */}
       <HomeCategories />
       <Product_Sidebar />
       Home

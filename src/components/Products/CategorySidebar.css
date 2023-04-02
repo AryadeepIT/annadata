@@ -17,70 +17,11 @@
     
 }
 
-.categorysidebar .category:hover:nth-child(1){
-    background-color: rgb(152, 81, 152);
-    color: white;
-}
-.categorysidebar .category:hover:nth-child(2){
-    background-color: blue;
-    color: white;
-}
-.categorysidebar .category:hover:nth-child(3){
-    background-color: skyblue;
-    color: white;
+.categorysidebar .category:hover{
+    border-width: 1.5px;
+    background-color: #e7e7e7;
     border-color: rgb(182, 181, 181);
-}
-.categorysidebar .category:hover:nth-child(4){
-    background-color: yellow;
-    color: black;
-    border-color: rgb(182, 181, 181);
-}
-.categorysidebar .category:hover:nth-child(5){
-    background-color: orange;
-    color: black;
-    border-color: rgb(182, 181, 181);
-}
-.categorysidebar .category:hover:nth-child(6){
-    background-color: orangered;
-    color: white;
     
-}
-.categorysidebar .category:hover:nth-child(7){
-    background-color: red;
-    color: white;
-}
-.categorysidebar .category:hover:nth-child(8){
-    background-color: green;
-    color: white;
-}
-.categorysidebar .category:hover:nth-child(9){
-    background-color: brown;
-    color: white;
-}
-.categorysidebar .category:hover:nth-child(10){
-    background-color: black;
-    color: white;
-}
-.categorysidebar .category:hover:nth-child(11){
-    background-color: grey;
-    color: white;
-}
-.categorysidebar .category:hover:nth-child(12){
-    background-color: pink;
-    color: black;
-    border-color: rgb(182, 181, 181);
-}
-.categorysidebar .category:hover:nth-child(13){
-    background-color: purple;
-    color: white;
-}
-.categorysidebar .category:hover:nth-child(14){
-    background-color: rgb(152, 81, 152);
-    color: white;
-}
-.categorysidebar .category:hover:nth-child(15){
-    background-color: blue;
-    color: white;
 }
 
 

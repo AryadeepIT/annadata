@@ -14,6 +14,8 @@ import img12 from '../../assets/Images/CategorySidebar/12.png'
 import img13 from '../../assets/Images/CategorySidebar/13.png'
 import img14 from '../../assets/Images/CategorySidebar/14.png'
 import img15 from '../../assets/Images/CategorySidebar/15.png'
+import img16 from '../../assets/Images/CategorySidebar/16.png'
+
 import './CategorySidebar.css'
 
 const CategorySidebar = () => {
@@ -92,6 +94,11 @@ const CategorySidebar = () => {
       id: 15,
       categoryimage: img15,
       categoryname: 'Dairy & Eggs'
+    },
+    {
+      id: 16,
+      categoryimage: img16,
+      categoryname: 'Pet Care'
     }
   ]
   return (

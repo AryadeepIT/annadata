@@ -7,16 +7,17 @@
     align-items: center;
     margin: 10px;
     position: relative;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-width: 1px;
     border-style: solid;
-    border-color: transparent;
+    border-color: #e9dbdb;
 }
 
 .product:hover{
-    border-color: rgb(182, 181, 181);
+    border-color: rgb(156, 156, 156);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .product .s1 {
@@ -59,6 +60,13 @@
     text-decoration: line-through;
     font-size: 15px;
     color: gray;
+    margin-left: 5px;
+}
+
+.product h3 span:last-child{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(12, 172, 12);
     margin-left: 5px;
 }
 

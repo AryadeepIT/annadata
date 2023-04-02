@@ -13,6 +13,7 @@ const ProductCard = ({data}) => {
                     Math.round(data.productprice - (data.productprice * data.discountpercent / 100))
                 }
                 <span>₹{data.productprice}</span>
+                <span>{data.discountpercent}% off</span>
                 
                 
                 </h3>
