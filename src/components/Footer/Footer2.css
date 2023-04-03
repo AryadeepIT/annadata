@@ -153,4 +153,6 @@
     height: 50px;
     font-family: 'Brightwall';
     font-size: 1.3em;
+    cursor: pointer;
+    
 }

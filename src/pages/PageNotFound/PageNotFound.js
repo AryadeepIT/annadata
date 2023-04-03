@@ -1,6 +1,6 @@
 import React from "react";
 import "./PageNotFound.css";
-import image404 from '../../../src/assets/Images/image404.webp'
+import image404 from '../../../src/assets/Images/image404.gif'
 
 const PageNotFound = () => {
   return (
