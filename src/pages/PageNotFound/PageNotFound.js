@@ -10,15 +10,18 @@ const PageNotFound = () => {
           <div class="row">
             <div class="col-sm-12 ">
               <div class="col-sm-10 col-sm-offset-1  text-center">
+                
                 <div class="four_zero_four_bg">
+    
+                <img src={image404} alt='image404' />
                 </div>
 
                 <div class="contant_box_404">
-                  <img src={image404} alt='image404' />
+                 
                   <h1>404</h1>
                   <h3 class="h2">Look like you're lost</h3>
 
-                  <p>the page you are looking for not avaible!</p>
+                  <p>the page you are looking for not available!</p>
 
                   <a href="/home" class="link_404">
                     Go to Home
