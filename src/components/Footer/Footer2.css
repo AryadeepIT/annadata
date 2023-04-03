@@ -147,3 +147,10 @@
     height: 20px;
     color: var(--col1);
 }
+
+.footerin1 .f1 .socialimg{
+    width: 200px;
+    height: 50px;
+    font-family: 'Brightwall';
+    font-size: 1.3em;
+}

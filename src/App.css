@@ -55,3 +55,7 @@
   font-family: AnmolHindi;
   src: url(../src/fonts/AnmolHindi.ttf);
 }
+@font-face {
+  font-family: Brightwall;
+  src: url(../src/fonts/Brightwall.ttf);
+}

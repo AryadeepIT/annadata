@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer2.css'
 import paymenticon from '../../../src/assets/Footer/payments.png'
 import logo from '../../../src/assets/annadata.png'
-import socialimg from '../../../src/assets/Footer/social.png'
+// import socialimg from '../../../src/assets/Footer/social.png'
 
 const Footer2 = () => {
   return (
@@ -11,7 +11,10 @@ const Footer2 = () => {
         <div className='f1'>
           <img src={logo} alt='logo' className='logo' />
           <p>Annadata is an Indian leading online grocery store that connects local shops to the online. We are commited to provide better quality products on time at better price.</p>
-          <img src={socialimg} alt='socialimg' className='socialimg' />
+          {/* <img src={socialimg} alt='socialimg' className='socialimg' /> */}
+          <div className='socialimg'>Follow us on Social Media</div>
+          
+
         </div>
         <div className='f2'>
           <h3>About Us</h3>

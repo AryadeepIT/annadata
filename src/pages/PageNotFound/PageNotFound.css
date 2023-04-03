@@ -1,4 +1,6 @@
 /* Default styles */
+
+
 .page_404 {
   padding: 40px 0;
   background: #fff;
@@ -26,7 +28,7 @@
 .link_404 {
   color: #fff !important;
   padding: 10px 20px;
-  background: #39ac31;
+  background: var(--col5);
   margin: 20px 0;
   display: inline-block;
   text-decoration: none;
